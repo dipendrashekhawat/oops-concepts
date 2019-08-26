@@ -8,13 +8,18 @@ namespace OOPSConcepts
     }
 
 
-    class B : ClassA, Interface1, Interface2
+    class B : ClassA, Interface1, Interface2 // Class should always be preffered over interfaces
     {
-       /* public void Interface1.Method1() // interface methods should not be preceeded with public keyword
-        {
-            //some code for method1 of interface1;
-        }
-       */
+        /* public void Interface1.Method1() // interface methods should not be preceeded with public keyword
+         {
+             //some code for method1 of interface1;
+         }
+        
+         override void Interface1.Method1() // interface methods cannot be preceeded with override keyword: override keyword is not valid for  this item.
+         {
+             //some code for method1 of interface1;
+         }
+        */
 
         void Interface1.Method1() // interface methods should not be preceeded with public keyword
         {
