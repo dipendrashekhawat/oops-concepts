@@ -1,7 +1,6 @@
 ﻿
 namespace OOPSConcepts
 {
-
     class ClassA
     {
         // some implementations
@@ -15,7 +14,8 @@ namespace OOPSConcepts
              //some code for method1 of interface1;
          }
         
-         override void Interface1.Method1() // interface methods cannot be preceeded with override keyword: override keyword is not valid for  this item.
+         override void Interface1.Method1() // interface methods cannot be preceeded with 
+                                           // override keyword: override keyword is not valid for  this item.
          {
              //some code for method1 of interface1;
          }

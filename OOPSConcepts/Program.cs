@@ -10,8 +10,13 @@ namespace OOPSConcepts
     {
         static void Main(string[] args)
         {
+            // try catch
             var tryCatch = new TryCatchConcepts();
             tryCatch.TryCatchMethod();
+
+            // Runtime Polymorphism
+            RuntimePolymorphism rp = new DerivedClass();
+            rp.RuntimeMethod();
 
             Console.ReadLine();
         }

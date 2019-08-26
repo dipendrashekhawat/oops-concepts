@@ -46,6 +46,7 @@
     <Compile Include="Interface2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RuntimePolymorphism.cs" />
     <Compile Include="TryCatchConcepts.cs" />
   </ItemGroup>
   <ItemGroup>
